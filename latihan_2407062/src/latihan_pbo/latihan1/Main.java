@@ -15,6 +15,24 @@ class Cafe{
     void buka(){
     System.out.println("Cafe" + nama + "Sudah buka");
 }
+
+public String getNama() {
+    return nama;
+}
+
+public void setNama(String nama) {
+    this.nama = nama;
+
+}
+
+public String getAlamat() {
+    return alamat;
+}
+
+public void setAlamat(String alamat) {
+    this.alamat = alamat;
+}
+
 }
 
 // constructor
@@ -22,9 +40,16 @@ class Cafe{
 public class Main {
     public static void main(String[] args) {
 
+        // scanner input = new Scanner(System.in);
+        // Cafe cafe = new Cafe();
+
+        // System.out.println("Masukkan nama cafe: ");
+        // cafe.nama = input.nextLine();
+
+        // System.out.println("nama yang display adalah : +cafe.nama");
+        // cafe.buka();
+
         // Cafe cafe1 = new Cafe();
-        Cafe cafe4 = new Cafe( "Kozi cofe",  "Indramayu");
-        cafe4.buka();
         // cafe1.nama = "Kopi Klotok";
         // cafe1.alamat = "Jogja";
 
@@ -44,6 +69,11 @@ public class Main {
 
         // System.out.println("Nama Cafenya adalah : " + cafe3.nama);
         // System.out.println("Alamatnya ada di : " + cafe3.alamat);
+
+
+        Cafe cafe4 = new Cafe("Djago kopi",  "Indramayu");
+        cafe4.setNama("Jago");
+        cafe4.buka();
         
     }
 }
