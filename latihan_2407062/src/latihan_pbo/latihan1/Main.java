@@ -1,38 +1,39 @@
 package latihan_pbo.latihan1;
 
+// Import java.util.Scanner
+
 class Cafe{
     String nama;
     String alamat;
 
-    Cafe(String nama, String alamat){
+    Cafe (String nama, String alamat){
     this.nama = nama;
     this.alamat = alamat;
     System.out.println(nama);
     System.out.println(alamat);
     }
-
+ 
     // method
     void buka(){
-    System.out.println("Cafe" + nama + "Sudah buka");
-}
+    System.out.println("Cafe " + nama + " Sudah buka ");
+    }
 
-public String getNama() {
-    return nama;
-}
+    public String getNama() {
+        return nama;
+    }
 
-public void setNama(String nama) {
-    this.nama = nama;
+    public void setNama(String nama) {
+        this.nama = nama;
+        // this.alamat = alamat;
+    }
 
-}
+    public String getAlamat() {
+        return alamat;
+    }
 
-public String getAlamat() {
-    return alamat;
-}
-
-public void setAlamat(String alamat) {
-    this.alamat = alamat;
-}
-
+    public void setAlamat(String alamat) {
+        this.alamat = alamat;
+    }
 }
 
 // constructor
@@ -40,26 +41,28 @@ public void setAlamat(String alamat) {
 public class Main {
     public static void main(String[] args) {
 
-        // scanner input = new Scanner(System.in);
+        // Scanner input = new Scanner(System.in);
         // Cafe cafe = new Cafe();
 
         // System.out.println("Masukkan nama cafe: ");
-        // cafe.nama = input.nextLine();
+        // cafe.nama = input.nextline();
 
-        // System.out.println("nama yang display adalah : +cafe.nama");
+        // System.out.println("Nama yang diinput adalah: " + cafe.nama);
         // cafe.buka();
 
         // Cafe cafe1 = new Cafe();
-        // cafe1.nama = "Kopi Klotok";
-        // cafe1.alamat = "Jogja";
+        // Cafe cafe4 = new Cafe( "TOMORO",  "Indramayu");
+        // cafe4.buka();
+        // cafe1.nama = "Kopi Kenangan";
+        // cafe1.alamat = "Indramayu";
 
         // Cafe cafe2 = new Cafe();
-        // cafe2.nama = "HALAMAN";
-        // cafe2.alamat = "Indramayu";
+        // cafe2.nama = "KOPTE";
+        // cafe2.alamat = "Bandung";
 
         // Cafe cafe3 = new Cafe();
-        // cafe3.nama = "Janji Jiwa";
-        // cafe3.alamat = "Brebes";
+        // cafe3.nama = "Kopi Dari Hati";
+        // cafe3.alamat = "Jatibarang";
 
         // System.out.println("Nama Cafenya adalah : " + cafe1.nama);
         // System.out.println("Alamatnya ada di : " + cafe1.alamat);
@@ -70,10 +73,9 @@ public class Main {
         // System.out.println("Nama Cafenya adalah : " + cafe3.nama);
         // System.out.println("Alamatnya ada di : " + cafe3.alamat);
 
-
-        Cafe cafe4 = new Cafe("Djago kopi",  "Indramayu");
-        cafe4.setNama("Jago");
-        cafe4.buka();
+        Cafe cafe5 = new Cafe("Arum Dalu", "Indramayu");
+        cafe5.setNama("Kopi Kenangan");
+        cafe5.buka();
         
     }
 }
