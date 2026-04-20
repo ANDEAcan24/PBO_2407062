@@ -8,6 +8,20 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "latihan_2407062.tugas_inheritence.Main",
+            "projectName": "PBO_2407062_5810116"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "latihan_2407062.tugas_inheritence.latihan_4.Main",
+            "projectName": "PBO_2407062_5810116"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "andea_tugas2.Main",
             "projectName": "PBO_2407062_5810116"
         },
