@@ -1,4 +1,4 @@
-package latihan_2407062.tugas_inheritence.tgs_polymorphism;
+package latihan_pbo.tgs_polymorphism;
 
 
 public class PersegiPanjang extends BangunDatar {

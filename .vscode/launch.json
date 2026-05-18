@@ -8,6 +8,27 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "latihan_pbo.tgs_polymorphism.Main",
+            "projectName": "PBO_2407062_5810116"
+        },
+        {
+            "type": "java",
+            "name": "tes",
+            "request": "launch",
+            "mainClass": "latihan_pbo.latihan_expection.tes",
+            "projectName": "PBO_2407062_5810116"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "latihan_2407062.bin.latihan_pbo.tugas_kelompok.Main",
+            "projectName": "PBO_2407062_5810116"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "latihan_2407062.tugas_inheritence.Main",
             "projectName": "PBO_2407062_5810116"
         },

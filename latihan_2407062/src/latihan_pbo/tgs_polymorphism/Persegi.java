@@ -1,9 +1,9 @@
-package latihan_2407062.tugas_inheritence.tgs_polymorphism;
+package latihan_pbo.tgs_polymorphism;
 
 
-public class persegi extends BangunDatar {
+public class Persegi extends BangunDatar {
 
-    public persegi(double sisi) {
+    public Persegi(double sisi) {
         super(sisi);
     }
 
